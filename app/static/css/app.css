@@ -5,3 +5,47 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+#item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-style: double;
+  border-width: thick;
+    padding: 20px;
+    font-size: 15;
+    border-color: #5E7FD8;
+    
+}
+
+#title{
+    font-style: bold;
+    color: #5E7FD8;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newsImg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: medium;
+  border-color: #5E7FD8;
+   
+}
